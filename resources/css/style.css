@@ -1,0 +1,125 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.logo {
+  padding: 1rem 5rem;
+  background-color: black;
+  color: white;
+}
+
+.logo img {
+  width: auto;
+  height: 1rem;
+  margin-right: 1rem;
+}
+
+.logo h1 {
+  display: inline;
+  font-size: 0.85rem;
+}
+
+.main-banner {
+  background-image: url("../images/moto.jpeg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100% auto;
+  height: 250px;
+  width: 100%;
+
+}
+
+.title-banner {
+  background-color: black;
+  height: 120px;
+  width: 250px;
+  position: relative;
+  left: 8rem;
+  top: 3rem;
+  text-align: left;
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title-banner span {
+  margin-top: 0.75rem;
+  line-height: 1.5rem;
+  color: white;
+}
+
+.title-banner h3 {
+  font-size: 0.75rem;
+  color: grey;
+}
+
+nav {
+  background-color: darkred;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  padding: 10px 20px;
+  font-size: 0.75rem;
+}
+
+.main-content {
+  width: 100%;
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+.product-grid {
+  display: flex;
+  justify-content: left;
+}
+
+.product {
+  text-align: center;
+  border: 0.1rem solid black;
+}
+
+.product, .location-hours {
+  margin: 0.5rem;
+}
+
+.product img {
+  max-width: 100px;
+  height: auto;
+  padding: 2rem;
+
+}
+
+.product h3, .location h3,.hours h3{
+  background-color: black;
+  color: white;
+  font-size: 0.8rem;
+  padding: 0.5rem;
+}
+
+.location-hours {
+  display: flex;
+  justify-content: left;
+  width: 590px;
+}
+
+.location-hours div {
+  margin-right: 3rem;
+}
+
+.location, .hours {
+  width: 200px;
+}
+
+.footer {
+  position: relative;
+  background-color: black;
+  color: white;
+  padding: 50px;
+}
