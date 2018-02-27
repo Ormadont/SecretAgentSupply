@@ -67,7 +67,6 @@ body {
 
 nav {
   background-color: firebrick;
-  color: white;
   padding: 0.75rem 0;
 }
 
@@ -78,4 +77,5 @@ nav .container {
 
 a {
   text-decoration: none;
+  color: white;
 }
