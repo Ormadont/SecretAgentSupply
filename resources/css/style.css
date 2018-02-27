@@ -80,6 +80,10 @@ a {
   color: white;
 }
 
+a#Menu {
+  display: none;
+}
+
 .product-grid {
   background-color: white;
   color: white;
@@ -140,4 +144,74 @@ footer {
   color: white;
   text-align: left;
   line-height: 5rem;
+}
+
+@media only screen and (max-width:1024px) and (orientation: portrait) {
+  a {
+    display: none;
+  }
+
+  a#Menu {
+    display: inline;
+  }
+
+  nav .container {
+    justify-content: center;
+  }
+
+  .oneproduct {
+    min-width: 47%;
+  }
+}
+
+@media only screen and (max-width:470px) {
+  a {
+    display: none;
+  }
+
+  a#Menu {
+    display: inline;
+  }
+
+  nav .container {
+    justify-content: center;
+  }
+
+  .main-banner .container{
+    padding-top: 10rem;
+  }
+
+  .main-banner {
+    height: 15rem;
+  }
+
+  .black-box {
+    width: 100%;
+  }
+
+  .black-box .title {
+    padding: 1rem 2rem;
+  }
+
+  .title h6 {
+    font-size: 0.77rem;
+  }
+
+  .title h3 {
+    font-size: 1rem;
+  }
+
+  .oneproduct {
+    min-width: 90%;
+  }
+
+  .location-and-hours {
+    flex-direction: column;
+    justify-content :center;
+  }
+
+  .location-and-hours div {
+    margin-top: 0.5rem;
+    width: 90%
+  }
 }
