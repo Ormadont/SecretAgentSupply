@@ -45,10 +45,10 @@ body {
 
 .black-box {
   width: 25rem;
-  /* не умещается в 20rem или 360px */
   background-color: black;
   color: white;
 }
+/* somethere error */
 
 .black-box .title {
   padding: 2rem 3rem;
@@ -78,4 +78,58 @@ nav .container {
 a {
   text-decoration: none;
   color: white;
+}
+
+.product-grid {
+  background-color: white;
+  color: white;
+  padding: 3rem 0 4rem 0;
+}
+
+.lineproducts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.oneproduct {
+  border: 4px solid black;
+  max-width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.oneproduct h3 {
+  padding: 0.5rem;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.oneproduct img{
+  padding: 2rem;
+  max-height: 9rem;
+  max-width: 100%;
+}
+/* somethere error */
+
+.location-and-hours {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.location-and-hours div {
+  width: 35%;
+}
+
+.location-and-hours h3 {
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
+  margin-bottom: 0.1rem;
+}
+
+.location-and-hours span {
+  color: black;
 }
